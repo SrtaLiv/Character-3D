@@ -11,7 +11,7 @@ export const Experience = () => {
   const { animation } = useControls({
     animation: {
       value: "Typing",
-      options: ["Typing", "Falling"],
+      options: ["Typing", "Falling", "Standing"],
     },
   });
   return (

@@ -18,15 +18,19 @@ export function Avatar(props) {
   const { nodes, materials } = useGLTF("models/yo.glb");
 
   const { animations: typingAnimation } = useFBX("animations/olifbx.fbx");
+  const { animations: standingAnimation } = useFBX(
+    "animations/Standing.fbx"
+  );
   const { animations: fallingAnimation } = useFBX(
     "animations/Falling.fbx"
   );
 
   typingAnimation[0].name = "Typing";
+  standingAnimation[0].name = "Standing";
   fallingAnimation[0].name = "Falling";
 
   const { actions } = useAnimations(
-    [typingAnimation[0], fallingAnimation[0]],
+    [typingAnimation[0], standingAnimation[0], fallingAnimation[0]],
     group
   );
 
