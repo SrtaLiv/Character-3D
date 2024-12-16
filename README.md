@@ -1,10 +1,16 @@
-# r3f-vite-starter
-A boilerplate to build R3F projects
+### Personaje 3D
 
 ```
 yarn
 yarn dev
 ```
 
+## Preview
+![image](public/preview/Falling.PNG)
+![image](public/preview/Standing.PNG)
+![image](public/preview/Typing.PNG)
 
-![image](https://user-images.githubusercontent.com/6551176/221732091-23ee52cb-4150-42fa-b998-43628d7a6b0d.png)
+# Links de interes
+Animaciones: https://www.mixamo.com/#/
+Personaje: https://readyplayer.me/es
+Programa de modelos 3D: https://www.blender.org/
